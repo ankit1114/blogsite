@@ -1,0 +1,13 @@
+global-styling:
+  css:
+    theme:
+      css/font-awesome.min.css: {}
+      css/bootstrap.min.css: {}
+      css/bootstrap-grid.min.css: {}
+      css/style.css: {}
+
+  js:
+    js/jquery-3.4.1.min.js: {}
+    js/bootstrap.js: {}
+    
+    

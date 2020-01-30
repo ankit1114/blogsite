@@ -1,0 +1,28 @@
+/** style css for corporate theme 1901 **/
+
+/** common elements **/
+body { overflow-x: hidden; }
+img { max-width: 100%; height: auto;}
+a { outline: none; }
+/** end common elements **/
+
+#copyrights { background: #222; color: #efefef; padding: 10px 0px; font-size: 12px; }
+#pre-header { background: var(--indigo); color: #fff; }
+.banner-headings { top: 0px; justify-content: center; align-items: center; right: 0px; height: 100%; width: 50%; }
+.sidebar-block { background: #b6bdc5; }
+.sidebar-block h3 { background: #7f8489; }
+.user-image { display: block; max-width: 160px; top: -80px; }
+.user-image img { border: 10px solid #b6bdc5; }
+.blog-wrapper { background: #b6bdc5; }
+body.blog-full-page .blog-wrapper { background: #fff; }
+body.blog-full-page .user-image img { border: 15px solid #fff; }
+.fa, .fa:hover { padding: 6.5px; font-size: 16px; width: 30px; border-radius: 50%; text-align: center; color: #fff; margin-right: 8px; text-decoration: none; transition: all 0.2s;}
+.fa-facebook { background: #3B5998; }
+.fa-twitter {background: #55ACEE; }
+.fa-google { background: #dd4b39; }
+.fa-linkedin { background: #007bb5; }
+.fa-comment { background: #2c4762; }
+input[type='text'] { display: block; width: 100%; padding: 6px 10px; border: 1px solid #dbdbdb; }
+.comment-wrapper { background: #efefef; }
+.comment-wrapper img { width: 72px; height: auto; margin-top: -120px; margin-left: -72px; background: #fff; }
+.login-user-profile img { width: 55px; height: auto; }

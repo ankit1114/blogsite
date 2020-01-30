@@ -1,0 +1,20 @@
+<div class="blog position-relative col-lg-12 mb-5">
+  <div class="blog-wrapper rounded p-5">
+    <div class="user-image position-absolute rounded-circle">
+      {{ content.user_picture }}
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-12">
+        <h1 class="mb-4">{{ content.title }}</h1>
+        <div class="row mb-5">
+          <div class="col-lg-3"><strong>Posted On : </strong><span>{{ content.created }}</span></div>
+          <div class="col-lg-3"><strong class="">Written By : </strong><span>{{ content.user_name }}</span></div>
+        </div>
+          {{ content.field_blog_content }}  
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
